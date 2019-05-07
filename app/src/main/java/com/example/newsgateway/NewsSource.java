@@ -14,19 +14,16 @@ public class NewsSource {
         this.url = url;
     }
 
-    public String getUrl() {
-        return url;
-    }
-
     public String getName() {
         return name;
     }
 
-    public String getCategory() {
-        return category;
-    }
-
     public String getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
